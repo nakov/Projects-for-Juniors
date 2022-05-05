@@ -32,11 +32,11 @@ namespace Guess_A_Number
                 {
                     if (playerNumber > computerNumer)
                     {
-                        Console.WriteLine("High");
+                        Console.WriteLine("Too High");
                     }
                     else
                     {
-                        Console.WriteLine("Low");
+                        Console.WriteLine("Too Low");
                     }
                 }
 
