@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Rock-Paper-Scessors</RootNamespace>
-    <AssemblyName>Rock-Paper-Scissors</AssemblyName>
+    <AssemblyName>RockPaperScissors</AssemblyName>
   </PropertyGroup>
 
 </Project>

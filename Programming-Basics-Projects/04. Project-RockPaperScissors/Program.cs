@@ -6,6 +6,10 @@ namespace RockPaperScissors
     {
         public static void Main()
         {
+            const string rock = "Rock";
+            const string paper = "Paper";
+            const string scissors = "Scissors";
+
             Random random = new Random();
             int computerRandomNumber = random.Next(1, 4);
             string computerMove = "";
@@ -16,46 +20,47 @@ namespace RockPaperScissors
             switch (computerRandomNumber)
             {
                 case 1:
-                    computerMove = "Rock";
+                    computerMove = rock;
                     break;
                 case 2:
-                    computerMove = "Paper";
+                    computerMove = paper;
                     break;
                 case 3:
-                    computerMove = "Scissors";
+                    computerMove = scissors;
                     break;
             }
 
             if (playerMove == "r" || playerMove == "rock")
             {
-                playerMove = "Rock";
+                playerMove = rock;
             }
             else if (playerMove == "p" || playerMove == "paper")
             {
-                playerMove = "Paper";
+                playerMove = paper;
             }
             else if (playerMove == "s" || playerMove == "scissors")
             {
-                playerMove = "Scissors";
+                playerMove = scissors;
             }
             else
             {
                 Console.WriteLine("Invalid Input. Try Again...");
+                return;
             }
 
             Console.WriteLine($"The computer chose {computerMove}.");
 
             switch (playerMove, computerMove)
             {
-                case ("Rock", "Paper"):
-                case ("Paper", "Scissors"):
-                case ("Scissors", "Rock"):
+                case (rock, paper):
+                case (paper, scissors):
+                case (scissors, rock):
                     Console.WriteLine("You lose.");
                     break;
 
-                case ("Rock", "Scissors"):
-                case ("Paper", "Rock"):
-                case ("Scissors", "Paper"):
+                case (rock, scissors):
+                case (paper, rock):
+                case (scissors, paper):
                     Console.WriteLine("You win.");
                     break;
                 
@@ -63,8 +68,6 @@ namespace RockPaperScissors
                     Console.WriteLine("This game was a draw.");
                     break;
             }
-
-
         }
     }
 }
