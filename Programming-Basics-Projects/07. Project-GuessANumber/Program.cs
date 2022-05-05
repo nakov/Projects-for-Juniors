@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Guess_A_Number
+namespace GuessANumber
 {
     public class Program
     {
@@ -15,8 +15,6 @@ namespace Guess_A_Number
 
                 string playerInput = Console.ReadLine();
                 bool isValid = int.TryParse(playerInput, out int playerNumber);
-
-                Console.Clear();
 
                 if (!isValid)
                 {
@@ -39,7 +37,6 @@ namespace Guess_A_Number
                         Console.WriteLine("Too Low");
                     }
                 }
-
             }
         }
     }
