@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickDraw", "QuickDraw.csproj", "{67B8E37E-818F-4E1C-AF0D-F7CD14D87577}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B8E37E-818F-4E1C-AF0D-F7CD14D87577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B8E37E-818F-4E1C-AF0D-F7CD14D87577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B8E37E-818F-4E1C-AF0D-F7CD14D87577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B8E37E-818F-4E1C-AF0D-F7CD14D87577}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0F25685-0F12-4F6D-9729-02FDB552063B}
+	EndGlobalSection
+EndGlobal

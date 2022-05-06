@@ -63,7 +63,7 @@ namespace RockPaperScissors
                 case (scissors, paper):
                     Console.WriteLine("You win.");
                     break;
-                
+
                 default:
                     Console.WriteLine("This game was a draw.");
                     break;
