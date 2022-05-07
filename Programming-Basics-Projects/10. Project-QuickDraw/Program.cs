@@ -69,7 +69,7 @@ namespace QuickDraw
                 Console.Clear();
                 Console.WriteLine(menu);
 
-                TimeSpan requiredReactionTime = new TimeSpan();
+                TimeSpan requiredReactionTime;
                 string playerInput = Console.ReadLine();
 
                 switch (playerInput)
@@ -92,7 +92,7 @@ namespace QuickDraw
 
                 Console.Clear();
 
-                TimeSpan signal = TimeSpan.FromMilliseconds(random.Next(5000, 30000));
+                TimeSpan signal = TimeSpan.FromMilliseconds(random.Next(5000, 10000));
 
                 Console.WriteLine(wait);
 
