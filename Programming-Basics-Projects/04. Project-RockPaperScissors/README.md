@@ -1,6 +1,8 @@
 # The "Rock - Paper - Scissors" Game
 
-A simple implementation of the "**Rock - Paper - Scissors**" game, written in C#, as console-based app.
+A console-based C# implementation of the "**Rock - Paper - Scissors**" game.
+
+![image](https://user-images.githubusercontent.com/1689586/167414132-7228c697-6806-48a4-81dc-679796135ed0.png)
 
 [**Rock - Paper - Scissors**](https://en.wikipedia.org/wiki/Rock_paper_scissors) is a simple **two player game**, where you and your oponent (the computer) simultaneously choose one of the following three options: "**rock**", "**paper**" or "**scissors**". The rules are as follows:
   - **Rock beats scissors** (the scissors get broken by the rock)
