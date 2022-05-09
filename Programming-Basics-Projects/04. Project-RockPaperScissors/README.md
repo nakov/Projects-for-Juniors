@@ -1,4 +1,4 @@
-# Rock - Paper - Scissors
+# The "Rock - Paper - Scissors" Game
 
 A simple implementation of the "**Rock - Paper - Scissors**" game, written in C#, as console-based app.
 
