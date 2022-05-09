@@ -39,6 +39,16 @@ One of the following 9 situations can occur:
 We handle all these situations using a series of checks.
   - [Source Code (C#)](RockPaperScissorsGame.cs)
 
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/1689586/167414587-dfba062b-fec1-4cab-85ec-c481b24c1a2e.png)
+
+![image](https://user-images.githubusercontent.com/1689586/167414967-efc009d7-5246-4680-9874-f9a57a47c295.png)
+
+![image](https://user-images.githubusercontent.com/1689586/167415095-a20ac29b-385b-4f7d-b78d-7b13cdaa53b7.png)
+
+![image](https://user-images.githubusercontent.com/1689586/167415258-8efcde7d-b223-4df4-8282-5d28be39a6c2.png)
+
 ## Live Demo 
 
 You can play the game directly in your Web browser here:
