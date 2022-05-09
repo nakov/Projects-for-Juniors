@@ -41,7 +41,7 @@ We handle all these situations using a series of checks.
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/1689586/167414587-dfba062b-fec1-4cab-85ec-c481b24c1a2e.png)
+![image](https://user-images.githubusercontent.com/1689586/167415587-950395aa-80b0-4807-96be-d5eb653cd1e8.png)
 
 ![image](https://user-images.githubusercontent.com/1689586/167414967-efc009d7-5246-4680-9874-f9a57a47c295.png)
 
