@@ -41,13 +41,15 @@ We handle all these situations using a series of checks.
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/1689586/167415587-950395aa-80b0-4807-96be-d5eb653cd1e8.png)
+![image](https://user-images.githubusercontent.com/1689586/167416642-2b055cf0-e26f-4c19-98d9-851e071f80dc.png)
 
-![image](https://user-images.githubusercontent.com/1689586/167414967-efc009d7-5246-4680-9874-f9a57a47c295.png)
+![image](https://user-images.githubusercontent.com/1689586/167416225-ea1b623f-3ca5-41eb-8871-54cbb9b7784e.png)
 
-![image](https://user-images.githubusercontent.com/1689586/167415095-a20ac29b-385b-4f7d-b78d-7b13cdaa53b7.png)
+![image](https://user-images.githubusercontent.com/1689586/167416733-3b1c1bac-db50-4b89-9e5d-2d7f778ffc2d.png)
 
-![image](https://user-images.githubusercontent.com/1689586/167415258-8efcde7d-b223-4df4-8282-5d28be39a6c2.png)
+![image](https://user-images.githubusercontent.com/1689586/167416928-e86bcc6a-97c0-41df-8b24-2009509f253c.png)
+
+![image](https://user-images.githubusercontent.com/1689586/167417031-f47473e8-a0cf-4f0b-bc92-18d717a29305.png)
 
 ## Live Demo 
 
