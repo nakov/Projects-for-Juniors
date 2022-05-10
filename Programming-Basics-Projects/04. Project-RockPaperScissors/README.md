@@ -22,6 +22,11 @@ The computer chooses a **random option**, then reveals the winner.
 
 ## Solution
 
+We have 3 steps:
+  - Read player's move (from the console input)
+  - Choose computer's move (random choice)
+  - Display the game outcome: win / lose / draw
+
 One of the following 9 situations can occur:
 
 | You      | Computer | Outcome  |
