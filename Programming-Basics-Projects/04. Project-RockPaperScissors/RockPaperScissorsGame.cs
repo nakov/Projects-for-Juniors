@@ -8,6 +8,7 @@ public class RockPaperScissorsGame
         const string Paper = "Paper";
         const string Scissors = "Scissors";
 
+        // Step 1: read player's move
         Console.Write("Choose [r]ock, [p]aper or [s]cissors: ");
         string playerMove = Console.ReadLine();
         if (playerMove == "r" || playerMove == "rock")
@@ -29,6 +30,7 @@ public class RockPaperScissorsGame
         }
         Console.WriteLine($"Your choice: {playerMove}.");
 
+        // Step 2: choose computer's move
         Random random = new Random();
         int computerRandomNumber = random.Next(1, 4);
         string computerMove = "";
@@ -46,6 +48,7 @@ public class RockPaperScissorsGame
         }
         Console.WriteLine($"Computer choice: {computerMove}.");
 
+        // Step 3: decide about the game outcome (win / lose / draw)
         if ((playerMove == Rock && computerMove == Scissors) ||
                 (playerMove == Paper && computerMove == Rock) ||
                 (playerMove == Scissors && computerMove == Paper))
